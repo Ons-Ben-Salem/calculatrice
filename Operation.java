@@ -10,6 +10,7 @@ public class Operation {
          return a+b;
     }
     public static double division(int a, int b){
-         return a/b;
+         if(b != 0) return (double) a/b;
+         return 0;
     }
 }
