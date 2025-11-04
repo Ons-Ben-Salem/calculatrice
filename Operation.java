@@ -1,5 +1,12 @@
-class operation {
-    int static multiplication(int a,int b){
+public class Operation {
+   public static int multiplication(int a,int b){
+         System.out.println("Bonjour");
          return a*b;
+    }
+    public static int soustraction(int a,int b){
+         return a-b;
+    }
+    public static int addition(int a,int b){
+         return a+b;
     }
 }
